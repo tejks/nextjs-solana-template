@@ -1,0 +1,41 @@
+{
+  "name": "yield-bearing-stablecoins-aggregator",
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "clean": "turbo run clean",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "turbo": "latest",
+    "prettier": "^3",
+    "eslint-plugin-turbo": "^2",
+    "eslint-plugin-security": "^2",
+    "eslint-plugin-react-hooks": "^5",
+    "eslint-plugin-jsx-a11y": "^6",
+    "husky": "^9",
+    "lint-staged": "^15"
+  },
+  "lint-staged": {
+    "*.{ts,tsx,js,jsx,json,css,md}": [
+      "prettier --write"
+    ]
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "packageManager": "bun@1.2.21",
+  "dependencies": {
+    "prettier-plugin-tailwindcss": "^0.6.14"
+  }
+}

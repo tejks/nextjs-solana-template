@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleDetection": "force",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "moduleResolution": "bundler",
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "paths": {
+      "@yield-bearing-stablecoins-aggregator/utils": ["packages/utils/src/index.ts"],
+      "@yield-bearing-stablecoins-aggregator/utils/*": ["packages/utils/src/*"],
+      "@yield-bearing-stablecoins-aggregator/types": ["packages/types/src/index.ts"],
+      "@yield-bearing-stablecoins-aggregator/types/*": ["packages/types/src/*"]
+    }
+  }
+}

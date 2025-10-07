@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [{ "name": "next" }],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@yield-bearing-stablecoins-aggregator/utils": ["../../packages/utils/src/index.ts"],
+      "@yield-bearing-stablecoins-aggregator/utils/*": ["../../packages/utils/src/*"],
+      "@yield-bearing-stablecoins-aggregator/types": ["../../packages/types/src/index.ts"],
+      "@yield-bearing-stablecoins-aggregator/types/*": ["../../packages/types/src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
