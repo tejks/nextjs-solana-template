@@ -16,10 +16,10 @@
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     "paths": {
-      "@yield-bearing-stablecoins-aggregator/utils": ["packages/utils/src/index.ts"],
-      "@yield-bearing-stablecoins-aggregator/utils/*": ["packages/utils/src/*"],
-      "@yield-bearing-stablecoins-aggregator/types": ["packages/types/src/index.ts"],
-      "@yield-bearing-stablecoins-aggregator/types/*": ["packages/types/src/*"]
+      "@next-solana-template/utils": ["packages/utils/src/index.ts"],
+      "@next-solana-template/utils/*": ["packages/utils/src/*"],
+      "@next-solana-template/types": ["packages/types/src/index.ts"],
+      "@next-solana-template/types/*": ["packages/types/src/*"]
     }
   }
 }
