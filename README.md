@@ -1,8 +1,10 @@
 <div align="center">
   <img src="docs/assets/copy.svg" alt="logo" width="150" height="150" />
 
-## Solana Next.js Template
+  <h1 align="center">Solana Next.js Template</h1>
 </div>
+
+</br>
 
 A polished, full-stack template combining a Next.js frontend with Solana smart contract scaffolding (Anchor + Rust). Designed to help developers bootstrap dapps with authentication, on-chain programs, and a modern developer experience.
 
